@@ -47,7 +47,6 @@ namespace guessing_game
                 }
                 else
                 {
-                    dificultad = dificultad.ToLower();
                     switch (dificultad)
                     {
                         case "facil":
@@ -69,10 +68,6 @@ namespace guessing_game
 
             return intentos;
 
-        }
-        public static void info()
-        {
-                       Console.WriteLine("Esta es una utilidad de ejemplo.");
         }
     }
 }
